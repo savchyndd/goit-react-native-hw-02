@@ -29,7 +29,7 @@ import {
   linkText,
   linkTextUnderline,
 } from '../AuthPagesStyles';
-import backgroundImg from '../../assets/img/background.jpg';
+import backgroundImg from '../../../assets/img/background.jpg';
 
 const LoginScreen = () => {
   const [isShowKeyboard, setIsShowKeyboard] = useState(false);

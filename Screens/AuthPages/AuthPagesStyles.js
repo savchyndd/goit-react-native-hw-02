@@ -1,4 +1,4 @@
-import { StyleSheet } from 'react-native';
+import { Dimensions, StyleSheet } from 'react-native';
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -9,6 +9,11 @@ const styles = StyleSheet.create({
 
     flexDirection: 'row',
     alignItems: 'flex-end',
+
+    resizeMode: 'cover',
+    justifyContent: 'center',
+    width: Dimensions.get('window').width,
+    height: Dimensions.get('window').height,
   },
   keyboardView: {
     width: '100%',

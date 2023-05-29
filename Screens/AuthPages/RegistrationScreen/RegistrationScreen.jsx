@@ -33,15 +33,16 @@ import {
   avatarWrapper,
   avatar,
   btnAddAvatar,
-  btnAddAvatarText,
-  btnAddAvatarTextActive,
+  btnAddAvatarLoad,
+  btnAddAvatarSvg,
+  btnAddAvatarSvgLoad,
 } from './RegistrationScreen.styled';
-import backgroundImg from '../../assets/img/background.jpg';
-import addSvg from '../../assets/img/add.svg';
+import backgroundImg from '../../../assets/img/background.jpg';
+import SvgAddButton from '../../../assets/svg/SvgAddButton';
 
 const RegistrationScreen = () => {
   const [isShowKeyboard, setIsShowKeyboard] = useState(false);
-  const [isAvatar, setAvatar] = useState(true);
+  const [isAvatar, setAvatar] = useState(false);
 
   const handleFocus = () => {
     setIsShowKeyboard(true);
@@ -63,10 +64,8 @@ const RegistrationScreen = () => {
             >
               <View style={avatarWrapper}>
                 <Image style={avatar} />
-                <TouchableOpacity style={btnAddAvatar}>
-                  <addSvg />
-                  <Image source={addSvg} />
-                  {/* <Text style={isAvatar ? btnAddAvatarTextActive : btnAddAvatarText}>+</Text> */}
+                <TouchableOpacity style={isAvatar ? btnAddAvatarLoad : btnAddAvatar}>
+                  <SvgAddButton style={isAvatar ? btnAddAvatarSvgLoad : btnAddAvatarSvg} />
                 </TouchableOpacity>
               </View>
               <Text style={{ ...title, marginTop: 92 }}>Реєстрація</Text>

@@ -29,19 +29,42 @@ const styles = StyleSheet.create({
 
     color: '#ff6c00',
     backgroundColor: '#ffffff',
-
-    borderWidth: 1,
-    borderColor: '#ff6c00',
     borderRadius: 50,
+  },
+  btnAddAvatarLoad: {
+    position: 'absolute',
+    bottom: 14,
+    right: -12.5,
+
+    alignItems: 'center',
+    alignContent: 'center',
+
+    width: 25,
+    height: 25,
+
+    color: '#ff6c00',
+    backgroundColor: '#ffffff',
+    borderRadius: 50,
+
     transform: [{ rotate: '45deg' }],
   },
-  btnAddAvatarText: {
-    color: '#ff6c00',
+  btnAddAvatarSvg: {
+    fill: '#ff6c00',
+    stroke: '#ff6c00',
+    backgroundColor: '#ffffff',
   },
-  btnAddAvatarTextActive: {
-    color: '#e8e8e8',
+  btnAddAvatarSvgLoad: {
+    fill: '#bdbdbd',
+    stroke: '#e8e8e8',
+    backgroundColor: '#ffffff',
   },
 });
 
-export const { avatarWrapper, avatar, btnAddAvatar, btnAddAvatarText, btnAddAvatarTextActive } =
-  styles;
+export const {
+  avatarWrapper,
+  avatar,
+  btnAddAvatar,
+  btnAddAvatarLoad,
+  btnAddAvatarSvg,
+  btnAddAvatarSvgLoad,
+} = styles;

@@ -20,3 +20,11 @@
 - [Макет компонента `RegistrationScreen` з відкритою клавіатурою](<https://www.figma.com/file/YqWLNarVE4x1zkXa6PYJfi/Homework-(Copy)-(Copy)?node-id=32-57&t=jZpeABXYpGtE6WlU-0>).
 - [Макет компонента `LoginScreen`](<https://www.figma.com/file/YqWLNarVE4x1zkXa6PYJfi/Homework-(Copy)-(Copy)?node-id=12-0&t=tkIKc4K19uOKNunb-0>).
 - [Макет компонента `LoginScreen` з відкритою клавіатурою](<https://www.figma.com/file/YqWLNarVE4x1zkXa6PYJfi/Homework-(Copy)-(Copy)?node-id=33-126&t=p8npyqW8trmwF8rr-0>).
+
+
+#### Результат
+
+![LoginScreen](https://github.com/savchyndd/goit-react-native-hw-02/assets/96209694/45410c23-e837-4469-9de4-7fdd4b147ff8)
+
+
+![RegistrationScreen](https://github.com/savchyndd/goit-react-native-hw-02/assets/96209694/9a5dbc4c-4ea0-4f4b-bc76-c754b29b7dda)
